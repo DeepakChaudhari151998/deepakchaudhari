@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/deepakchaudhari/static/css/main.e7cc8e85.css",
-    "main.js": "/deepakchaudhari/static/js/main.62a30168.js",
+    "main.js": "/deepakchaudhari/static/js/main.5f63519a.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/deepakchaudhari/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/deepakchaudhari/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/deepakchaudhari/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
@@ -14,10 +14,10 @@
     "static/media/python.png": "/deepakchaudhari/static/media/python.4859f801ae28a9ef09f8.png",
     "index.html": "/deepakchaudhari/index.html",
     "main.e7cc8e85.css.map": "/deepakchaudhari/static/css/main.e7cc8e85.css.map",
-    "main.62a30168.js.map": "/deepakchaudhari/static/js/main.62a30168.js.map"
+    "main.5f63519a.js.map": "/deepakchaudhari/static/js/main.5f63519a.js.map"
   },
   "entrypoints": [
     "static/css/main.e7cc8e85.css",
-    "static/js/main.62a30168.js"
+    "static/js/main.5f63519a.js"
   ]
 }
