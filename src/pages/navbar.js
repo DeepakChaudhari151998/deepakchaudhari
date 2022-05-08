@@ -16,8 +16,8 @@ const Navbar=()=>{
               <ul>
                 <li><NavLink activeClassName={classes.activeclass} className={classes.textdeco} to='/about'>About</NavLink></li> 
                 {/* <li><NavLink className={classes.textdeco} to='/about'>Blog</NavLink></li> */}
-                <li><NavLink className={classes.textdeco} onClick={resume} to='/'>Resume</NavLink></li>
-                <li><NavLink activeClassName={classes.activeclass} className={classes.textdeco} to='/contact'>Contact</NavLink></li>
+                <li><NavLink className={classes.textdeco} onClick={resume} to='/deepakchaudhari'>Resume</NavLink></li>
+                <li><NavLink activeClassName={classes.activeclass} className={classes.textdeco} to='/deepakchaudhari/contact'>Contact</NavLink></li>
               </ul> 
             </div>
             

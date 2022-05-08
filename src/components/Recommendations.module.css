@@ -5,7 +5,11 @@
     color: #222;
     font-weight: 600;
 }
-
+@media (max-width:414px){
+    .title{
+        margin-top: 5%;
+    }
+}
 
 .recommendation{
     justify-content: center;

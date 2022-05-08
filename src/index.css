@@ -1,6 +1,11 @@
-body {
-  background-color: rgb(152, 152, 250);
+/* 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 */
+@media (min-width:1360px){
+  body {
+    background-color: rgb(152, 152, 250);
+  }
 }
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

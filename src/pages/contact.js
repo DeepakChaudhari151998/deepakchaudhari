@@ -4,7 +4,6 @@ import classes from './contact.module.css'
 import Footer from "../components/footer"
 import {Row,Col} from 'reactstrap'
 const Contact=()=>{
-
     return(
        <div className={classes.main}>
             <Background>

@@ -14,17 +14,17 @@ function App() {
     <Fragment>
           <Switch basename={process.env.PUBLIC_URL}>
             
-            <Route path='/about'  exact>
+            <Route path='/deepakchaudhari/about'  exact>
               <About />
             </Route>
-            <Route path="/contact">
+            <Route path="/deepakchaudhari/contact">
                <Contact/>       
             </Route>
             <Route path="/">
-              <Redirect to="/about"/>          
+              <Redirect to="/deepakchaudhari/about"/>          
             </Route>
             <Route path="*">
-              <Redirect to="/about"/>     
+              <Redirect to="/deepakchaudhari/about"/>     
             </Route>
           </Switch>
     </Fragment>

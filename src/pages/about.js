@@ -17,7 +17,7 @@ import {
 const About=()=>{
   const history=useHistory()
   const ContactClick=()=>{
-    history.push("/contact");
+    history.push("/deepakchaudhari/contact");
   }
   return (
       <Fragment>

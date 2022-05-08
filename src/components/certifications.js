@@ -6,6 +6,7 @@ import Angular from '../images/angular.png'
 import Python from '../images/python.png'
 import JS from '../images/js.png'
 const Certifications=()=>{
+    console.log(window.screen.width)
     const react=()=>{
         window.open("https://www.udemy.com/certificate/UC-ad989f70-4b36-43a7-85c9-adb1aae72862/")
     }
@@ -24,7 +25,7 @@ const Certifications=()=>{
             <div className={classes.certifications}>
                 <Row>
                     <Col  onClick={react} lg='5'className={classes.certificateinfo}>
-                       <Row>
+                       <Row className={classes.rowdata}>
                            <Col xs='3' className={classes.removePadding}>
                                 <div className={classes.certificateicon}><img src={ Photo }  height ="50" className={classes.photo} /></div>
                            </Col>

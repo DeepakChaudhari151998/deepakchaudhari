@@ -10,11 +10,25 @@
     font-weight: 600;
     margin-top: 3%;
 }
+
+@media (max-width:414px){
+    .title{
+        margin-top: 5%;
+    }
+}
 .certifications{
     background-color: #fff;
     margin-left: 12%;
     margin-right: 4%;
    
+}
+
+@media (max-width:414px){
+    .certifications{
+        background-color: #fff;
+        margin-left: 0%;
+        margin-right: 0%
+    }
 }
 .removePadding{
    
@@ -67,6 +81,23 @@ Col{
    max-width: 79;
 
 }
+
+@media(max-width:414px){
+        
+    .certiid{
+        font-size: .9em;
+        margin: 0 0 5px;
+        color: #777;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        padding-left: 25px;
+        max-width: 200px;
+
+    }
+}
+
+
 .certidate{
     font-size: .7em;
     color: #777;
@@ -74,3 +105,4 @@ Col{
     padding-left: 25px;
     margin-bottom: 5%;
 }
+
