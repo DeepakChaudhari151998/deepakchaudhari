@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/deepakchaudhari/static/css/main.3c348821.css",
+    "main.css": "/deepakchaudhari/static/css/main.f4aba5ed.css",
     "main.js": "/deepakchaudhari/static/js/main.62a30168.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/deepakchaudhari/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/deepakchaudhari/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -13,11 +13,11 @@
     "static/media/js.png": "/deepakchaudhari/static/media/js.d562ec262a0e64b4c323.png",
     "static/media/python.png": "/deepakchaudhari/static/media/python.4859f801ae28a9ef09f8.png",
     "index.html": "/deepakchaudhari/index.html",
-    "main.3c348821.css.map": "/deepakchaudhari/static/css/main.3c348821.css.map",
+    "main.f4aba5ed.css.map": "/deepakchaudhari/static/css/main.f4aba5ed.css.map",
     "main.62a30168.js.map": "/deepakchaudhari/static/js/main.62a30168.js.map"
   },
   "entrypoints": [
-    "static/css/main.3c348821.css",
+    "static/css/main.f4aba5ed.css",
     "static/js/main.62a30168.js"
   ]
 }
