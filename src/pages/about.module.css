@@ -1,0 +1,67 @@
+.main{
+    padding:5%;
+    /* display: inline-block; */
+    padding-left: 20%;
+}
+
+.photo{
+    /* display: inline-block; */
+    border-radius: 50%;
+    border: solid 15px rgb(255,250,250);
+    padding: 0%;
+
+}
+.photoclass{
+    width:10%
+}
+.designation{
+   
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 23px;
+    color: #222;
+    font-weight: 600;
+    
+}
+.info{
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    max-width: 50%;  
+  
+}
+
+.info p{
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #666;
+}
+a{
+    text-decoration: underline;
+}
+.downloadcv{
+    border-color: #2196F3;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Poppins",Helvetica,sans-serif;
+    padding: auto;
+    margin-right: 11px;
+    font-weight: 100;
+}
+.downloadcv:hover {
+    background: #2196F3;
+    color: white;
+  }
+  
+.contact{
+    border-color: black;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+    font-family: "Poppins",Helvetica,sans-serif;
+    padding: auto;
+   
+}

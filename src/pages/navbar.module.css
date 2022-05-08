@@ -1,0 +1,85 @@
+.mainbox{
+    max-width: 1320px;
+    max-height:1320px ;
+    border-radius: 30px;
+    background-color: rgb(242, 235, 235);
+    margin: auto;
+    padding: 2%;
+    z-index: 1000;
+    position: relative;
+    top: 100px;
+    box-shadow: 5px 5px 5px rgb(230, 216, 216);
+    animation: rotateY 3s normal linear 
+}
+
+@keyframes rotateY {
+    0% {
+        
+        transform: rotateY(50deg);
+      }
+      25% {
+      
+        transform: rotateY(0deg);
+      }
+
+}
+
+
+
+.logo{
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    top:-3px
+    
+}
+.name{
+    display: inline-block;
+    padding-left: 0.5rem;
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+    padding-bottom: 3px;
+    position: relative;
+    bottom: 1px;
+}
+
+ul{
+    display:inline-block;
+    list-style: none;
+    position: absolute;
+    right: 10%;
+    top: 38px;
+    
+    }
+ul >li{
+    display:inline-block;
+    font-family: "Poppins",Helvetica,sans-serif;
+    padding-left: 1rem;
+    cursor: pointer;
+    color: rgb(122, 119, 119);
+}
+ul >li:hover{
+    color: black;
+}
+
+a{
+    text-decoration: None;
+    color: rgb(152, 149, 149);
+    
+
+}
+a:hover{
+    color: black;
+}
+.textdeco{
+    text-decoration: None;
+}
+.activeclass{
+    color: black;
+}
+
+
+
+

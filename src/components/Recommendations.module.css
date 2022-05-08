@@ -1,0 +1,68 @@
+.title{
+    padding-left: 0.5rem;
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 20px;
+    color: #222;
+    font-weight: 600;
+}
+
+
+.recommendation{
+    justify-content: center;
+    margin-top: 2%;
+}
+
+.colcss{
+    position: relative;
+    padding: 30px 20px 20px 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 2px solid #e5e5e5;
+    font-style: italic;
+}
+.authdesignation{
+    margin-top: 15px;
+   
+}
+.author{
+    
+    /* margin: 0 0 2px; */
+    font-size: .9em;
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #333;
+    margin-left: 10px;
+    position: relative;
+    top: -17px;
+}
+.designation{
+    margin: 0;
+    font-size: .8em;
+    color: #bbb;
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    margin-left: 15px;
+    position: relative;
+    top: -17px;
+}
+
+.testimonial {
+    display: inline;
+    line-height: 15px;
+    font-size: 20px;
+    color: #e5e5e5;
+    position: relative;
+    left: -28px;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

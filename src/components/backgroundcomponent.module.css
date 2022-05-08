@@ -1,0 +1,28 @@
+.mainbox{
+    max-width: 1320px;
+    max-height:1320px ;
+    border-radius: 30px;
+    background-color: rgb(252, 252, 252);
+    margin: auto;
+    padding: 2%;
+    z-index: 1000;
+    position: relative;
+    /* top: 50px; */
+    box-shadow: 5px 5px 5px rgb(230, 216, 216);
+    animation: rotateY 3s normal linear;
+    margin-bottom: 3%;
+    overflow-y: auto;
+    margin-top: 2%;
+}
+
+@keyframes rotateY {
+    0% {
+        
+        transform: rotateY(50deg);
+      }
+      25% {
+      
+        transform: rotateY(0deg);
+      }
+
+}

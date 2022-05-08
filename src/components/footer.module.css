@@ -1,0 +1,24 @@
+.footer{
+    margin-top: 2%;
+    border-top: 2px solid #ece9e9;
+    
+}
+
+.socialmedia{
+   
+    font-size: .8em;
+    color: rgb(152, 149, 149);
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(152, 149, 149);
+}
+.mark{
+    float: right
+}

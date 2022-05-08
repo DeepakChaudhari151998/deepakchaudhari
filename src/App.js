@@ -1,24 +1,33 @@
-import logo from './logo.svg';
+
 import './App.css';
+import About from './pages/about';
+import {Route,Switch} from 'react-router-dom'
+import { Fragment } from 'react';
+import { Redirect } from 'react-router-dom';
+import image from './images/main_bg_14.png'
+import Contact from './pages/contact';
 
 function App() {
+  
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Fragment>
+          <Switch basename={process.env.PUBLIC_URL}>
+            
+            <Route path='/about'  exact>
+              <About />
+            </Route>
+            <Route path="/contact">
+               <Contact/>       
+            </Route>
+            <Route path="/">
+              <Redirect to="/about"/>          
+            </Route>
+            <Route path="*">
+              <Redirect to="/about"/>     
+            </Route>
+          </Switch>
+    </Fragment>
   );
 }
 

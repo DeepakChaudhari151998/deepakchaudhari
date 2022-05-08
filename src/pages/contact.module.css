@@ -1,0 +1,69 @@
+
+.main{
+    margin-top: 10%;
+}
+.contact{
+    margin-top: 2%;
+   
+}
+.contacttitle{
+    color: #333;
+    font-size: 44px;
+    font-family: Poppins,Helvetica,sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 0;
+
+}
+.pagetitle{
+
+
+    display: block;
+    position: relative;
+    background-color: #fdfdfd;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+    padding: 65px 70px;
+    margin-right: -34px;
+    margin-left: -70px;
+    margin-bottom: 65px;
+    text-align: left;
+     background-color: #ededed;
+    border-top-color: #eee;
+    border-bottom-color: #eee;
+}
+
+.pagesubtitle {
+    display: inline-block;
+    position: absolute;
+    top: 6%;
+    right: 70px;
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #666;
+}
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: blue;
+}
+.phone{
+    font-family: "Poppins",Helvetica,sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1.3rem;
+    position: relative;
+    top: -5px;
+    left:5%
+}
+.address{
+    font-size: 1rem;
+    max-width: 20%;
+}
