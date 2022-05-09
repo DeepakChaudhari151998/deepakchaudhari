@@ -24,6 +24,12 @@
     border: 2px solid #e5e5e5;
     font-style: italic;
 }
+@media (max-width:414px ){
+    .colcss{
+        margin-top: 3%;
+    }
+
+}
 .authdesignation{
     margin-top: 15px;
    

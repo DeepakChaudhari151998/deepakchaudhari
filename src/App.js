@@ -1,7 +1,7 @@
 
-import './App.css';
+
 import About from './pages/about';
-import {Route,Switch} from 'react-router-dom'
+import {Route,Switch} from 'react-router-dom';
 import { Fragment } from 'react';
 import { Redirect } from 'react-router-dom';
 import image from './images/main_bg_14.png'

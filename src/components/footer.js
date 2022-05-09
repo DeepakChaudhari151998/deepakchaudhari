@@ -7,7 +7,7 @@ const Footer=()=>{
         <div className={classes.footer}>
           <Row className={classes.socialmedia}>
               <Col xs={window.screen.width>414? "1":"2"}>
-                <a href="https://www.linkedin.com/in/deepak-chaudhari-79a682150/" target='_blank' rel='noopener noreferrer'>Linkdine</a>
+                <a href="https://www.linkedin.com/in/deepak-chaudhari-79a682150/" target='_blank' rel='noopener noreferrer'>Linkedin</a>
               </Col>
               <Col xs={window.screen.width>414? "1":"2"}>
                  <a href="https://twitter.com/deepakcha151998" target='_blank' rel='noopener noreferrer'>Twitter</a>
